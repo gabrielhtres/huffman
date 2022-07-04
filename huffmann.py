@@ -30,13 +30,3 @@ def huffmann():
         C.append(Z)
 
 huffmann()
-
-# print(Q)
-
-for i in C:
-    print(i)
-    for j in i:
-        print('Esquerdo')
-        print(j[0])
-        print('Direito')
-        print(j[1])
